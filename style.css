@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+}
+
+:root {
+  --base: black;
+  --widthDr: 10px;
+  --heightContr: 60px;
+}
+
+body {
+  text-align: center;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls {
+  background: rgb(19, 42, 173);
+  height: var(--heightContr);
+}
